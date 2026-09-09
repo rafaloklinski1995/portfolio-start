@@ -135,6 +135,22 @@ html {
 .link-github:hover {
   text-decoration: underline;
 }
+details {
+  margin-bottom: 12px;
+  padding: 16px;
+  background-color: #eff6ff;
+  border-radius: 8px;
+}
+
+summary {
+  cursor: pointer;
+  color: #1d4ed8;
+  font-weight: bold;
+}
+
+details[open] {
+  background-color: #dbeafe;
+}
 @media (max-width: 600px) {
   header {
     padding: 40px 20px;
