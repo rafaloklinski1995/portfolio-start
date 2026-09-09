@@ -165,6 +165,12 @@ details[open] {
 .link-projektu:hover {
   background-color: #1e40af;
 }
+.krok time {
+  display: block;
+  margin-bottom: 8px;
+  color: #4b5563;
+  font-size: 0.9rem;
+}
 @media (max-width: 600px) {
   header {
     padding: 40px 20px;
