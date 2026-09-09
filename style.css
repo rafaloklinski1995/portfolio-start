@@ -151,6 +151,20 @@ summary {
 details[open] {
   background-color: #dbeafe;
 }
+.link-projektu {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 14px;
+  background-color: #1d4ed8;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.link-projektu:hover {
+  background-color: #1e40af;
+}
 @media (max-width: 600px) {
   header {
     padding: 40px 20px;
