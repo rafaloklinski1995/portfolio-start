@@ -24,6 +24,7 @@ section {
   padding: 24px;
   background-color: white;
   border-radius: 12px;
+  scroll-margin-top: 80px;
 }
 
 h2 {
