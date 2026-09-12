@@ -194,6 +194,19 @@ summary:focus-visible {
 .pomin-nawigacje:focus {
   top: 16px;
 }
+.szczegoly-projektu {
+  margin: 20px 0;
+}
+
+.szczegoly-projektu dt {
+  margin-top: 12px;
+  color: #1d4ed8;
+  font-weight: bold;
+}
+
+.szczegoly-projektu dd {
+  margin: 4px 0 0;
+}
 @media (max-width: 600px) {
   header {
     padding: 40px 20px;
