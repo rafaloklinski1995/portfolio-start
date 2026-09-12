@@ -20,6 +20,7 @@ To moja pierwsza publiczna strona portfolio. Buduję ją podczas nauki HTML i CS
 - link do profilu GitHub;
 - przycisk powrotu na górę strony;
 - publikacja strony przez GitHub Pages.
+- widoczne oznaczenie linków i rozwijanych elementów podczas nawigacji klawiaturą.
 
 ## Cel projektu
 
