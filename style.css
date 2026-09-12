@@ -178,6 +178,22 @@ summary:focus-visible {
   outline-offset: 3px;
   border-radius: 4px;
 }
+.pomin-nawigacje {
+  position: absolute;
+  top: -60px;
+  left: 16px;
+  padding: 10px 14px;
+  background-color: #1d4ed8;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.pomin-nawigacje:focus {
+  top: 16px;
+}
 @media (max-width: 600px) {
   header {
     padding: 40px 20px;
