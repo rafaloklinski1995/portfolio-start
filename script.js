@@ -4,5 +4,11 @@ document.querySelector("#rok").textContent = aktualnyRok;
 const przyciskTekstu = document.querySelector("#przelacz-tekst");
 
 przyciskTekstu.addEventListener("click", () => {
-  document.body.classList.toggle("wiekszy-tekst");
+  const tekstJestWiekszy = document.body.classList.toggle("wiekszy-tekst");
+
+  przyciskTekstu.textContent = tekstJestWiekszy
+    ? "Przywróć zwykły tekst"
+    : "Powiększ tekst";
+
+  przyciskTekstu.setAttribute("aria-pressed", tekstJestWiekszy);
 });
